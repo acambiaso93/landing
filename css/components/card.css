@@ -1,0 +1,52 @@
+.container-cards {
+  padding: 0 20%;
+}
+.container-cards > h2 {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container-cards .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+}
+
+
+
+.card {
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card > img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card p {
+  font-size: 11px;
+  opacity: .7;
+  margin: 0;
+}
+
+.card .card-info {
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}

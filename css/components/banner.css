@@ -1,0 +1,21 @@
+.banner {
+  margin-top: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 75%;
+  padding: 175px 0;
+  background-color: #f3f3f3;
+}
+
+.banner h1 {
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+.container {
+  padding: 0px 20vw;
+}
